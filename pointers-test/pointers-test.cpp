@@ -2,10 +2,15 @@
 //
 
 #include <iostream>
+#include "Test.h"
 
 int main()
 {
     std::cout << "Hello World!\n";
+
+    Test myTest;
+
+    std::cout << myTest.GetTestInt();
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
